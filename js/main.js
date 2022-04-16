@@ -11,7 +11,7 @@ $('.menu__btn').on('click', function(){
 
 // Делаем плавний скролл
 
-$(".menu a, .logo__footer").on("click", function (e) {
+$(".menu a, .logo__footer, .menu__footer a").on("click", function (e) {
   e.preventDefault();
   var id  = $(this).attr('href'),
     top = $(id).offset().top;
